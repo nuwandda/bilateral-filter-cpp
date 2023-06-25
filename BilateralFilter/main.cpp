@@ -45,7 +45,7 @@ void blur_gaussian(const cv::Mat& input, cv::Mat& output, const int kernel_size,
 int main(int argc, char** argv)
 {
     /// Please change the path below
-    cv::Mat frame = cv::imread("C:/Users/donme/Downloads/laden.jpg");
+    cv::Mat frame = cv::imread("Path to image");
     cv::Mat gray_scaled;
     cv::Mat original;
     frame.copyTo(original);
