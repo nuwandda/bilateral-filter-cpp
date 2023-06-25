@@ -136,9 +136,6 @@
   <ItemGroup>
     <ClInclude Include="BilateralFilter.h" />
   </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\Downloads\in_img.jpg" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
